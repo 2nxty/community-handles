@@ -25,7 +25,7 @@ export default function CommunityPage() {
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
           Want a custom community handle for your community, like
-          @alex.bsky.london, @jay.swifties.social, or @jane.bsky.paris? Follow
+          @alex.bsky.top, @jay.anti.social, or @jane.bsky.work? Follow
           these steps to get one.
         </p>
       </div>
