@@ -69,10 +69,6 @@ export default async function IndexPage({
               throw new Error("slur")
             }
 
-            if (domain === "army.social" && RESERVED.includes(handle)) {
-              throw new Error("reserved")
-            }
-
             const existing = await prisma.user.findFirst({
               where: { handle },
               include: { domain: true },
@@ -203,9 +199,9 @@ export default async function IndexPage({
             &quot;Verify DNS Record&quot;.
           </p>
           <p className="mt-6 max-w-lg text-sm">
-            If you like this project, consider{" "}
-            <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring my work
+            If you like this handle, consider{" "}
+            <a href="https://bsky.app/profile/nx.s2.rip" className="underline">
+              following me
             </a>
             .
           </p>
@@ -216,47 +212,10 @@ export default async function IndexPage({
 }
 
 const RESERVED = [
-  "Jungkook",
-  "JeonJungkook",
-  "Jeon",
-  "JK",
-  "JJK",
-  "Kim",
-  "KimTaehyung",
-  "V",
-  "Taehyung",
-  "Tae",
-  "Jin",
-  "Seokjin",
-  "KimSeokjin",
-  "RM",
-  "Namjoon",
-  "Nam",
-  "KimNamjoon",
-  "MinYoongi",
-  "Yoongi",
-  "Yoon",
-  "AgustD",
-  "MYG",
-  "Suga",
-  "PJM",
-  "Jimin",
-  "ParkJimin",
-  "Park",
-  "Abcdefghi__lmnopqrsvuxyz",
-  "JM",
-  "UarMyHope",
-  "Rkrive",
-  "THV",
-  "KTH",
-  "SBT",
-  "BANGPD",
-  "projeto",
-  "army",
-  "armys ",
-  "info",
-  "projects",
-  "Pic",
-  "New",
-  "Babys",
+  "nx",
+  "admin",
+  "dono",
+  "mod",
+  "suporte",
+  "support",
 ].map((x) => x.toLowerCase())
