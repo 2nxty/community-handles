@@ -200,7 +200,7 @@ export default async function IndexPage({
           </p>
           <p className="mt-6 max-w-lg text-sm">
             If you like this handle, consider{" "}
-            <a href="https://bsky.app/profile/nx.s2.rip" className="underline">
+            <a href="/donate" className="underline">
               making a donation{" "}
             </a> to keep the domains active!
           </p>
