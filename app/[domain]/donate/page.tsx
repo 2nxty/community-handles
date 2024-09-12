@@ -40,11 +40,11 @@ export default function CommunityPage() {
             >
               neste link
             </a>
-            para doar por PIX 🇧🇷
+            {" "}para doar por PIX 🇧🇷
           </p>
         </Stage>
         <Stage title="Crypto" number={2} last>
-          <p className="mt-4 max-w-lg">
+          <p className="max-w-lg">
             Litecoin (LTC): MLezCzaYR69E13g2kNtdQSgVfqKgMyqkJH
           </p>
         </Stage>
