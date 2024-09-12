@@ -3,19 +3,15 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   mainNav: [
     {
-      title: "Grab your handle",
-      href: "/",
-    },
-    {
       title: "Users",
       href: "/community",
     },
     {
-      title: "FAQ",
-      href: "/create-your-own",
+      title: "Donate",
+      href: "/donate",
     },
   ],
   links: {
-    github: "https://github.com/mozzius/community-handles",
+    bluesky: "https://bsky.app/profile/nx.s2.rip",
   },
 }

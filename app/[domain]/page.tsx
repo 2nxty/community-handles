@@ -193,17 +193,20 @@ export default async function IndexPage({
           last
         >
           <p className="max-w-lg text-sm">
-            Go to Settings {">"} Advanced {">"} Change my handle. Select &quot;I
+            <b>Go to Settings {">"} Advanced {">"} Change my handle. Select &quot;I
             have my own domain&quot; and enter{" "}
             {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
-            &quot;Verify DNS Record&quot;.
+            &quot;Verify DNS Record&quot;.</b>
           </p>
           <p className="mt-6 max-w-lg text-sm">
             If you like this handle, consider{" "}
             <a href="https://bsky.app/profile/nx.s2.rip" className="underline">
               following me
             </a>
-            .
+            and
+            <a href="/donate" className="underline">
+              make a donation
+            </a>
           </p>
         </Stage>
       </div>
