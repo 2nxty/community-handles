@@ -33,7 +33,7 @@ export default function CommunityPage() {
           <p className="max-w-lg">
             Clique {" "}
             <a
-              href="https://nubank.com.br/cobrar/1a5ivb/66e36f67-3ff3-43a9-b139-65d8b7a383ca"
+              href="https://livepix.gg/nxty"
               className="underline"
               target="_blank"
               rel="noopener noreferrer"
