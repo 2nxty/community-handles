@@ -47,7 +47,7 @@ export default function CommunityPage() {
           <p className="max-w-lg">
             Donate {" "}
             <a
-              href="https://livepix.gg/nxty"
+              href="https://donate.stripe.com/bIYeXD8YaaiodiwdQW"
               className="underline"
               target="_blank"
               rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export default function CommunityPage() {
             </a>{" / "}
             Doar {" "}
             <a
-              href="https://livepix.gg/nxty"
+              href="https://donate.stripe.com/3cseXD6Q2eyE4M0005"
               className="underline"
               target="_blank"
               rel="noopener noreferrer"
