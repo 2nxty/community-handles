@@ -61,7 +61,7 @@ export default function CommunityPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Stripe BRL
+              Stripe BRL 🇧🇷
             </a>
           </p>
         </Stage>

@@ -193,19 +193,31 @@ export default async function IndexPage({
           last
         >
           <p className="max-w-lg text-sm">
-            <b>Go to Settings {">"} Advanced {">"} Change my handle. Select &quot;I
-            have my own domain&quot; and enter{" "}
+            Go to <b>Settings {">"} Advanced {">"} Change my handle.</b> Select <b>&quot;I
+            have my own domain&quot;</b> and enter{" "}
             {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
-            &quot;Verify DNS Record&quot;.</b>
+            <b>&quot;Verify DNS Record&quot;</b>.
           </p>
-          <p className="mt-6 max-w-lg text-sm">
-            If you like this handle, consider{" "}
-            <a href="/donate" className="underline">
-              making a donation
-            </a>{" "}to keep the domains active!
-          </p>
+          
         </Stage>
       </div>
+
+      <footer className="container grid gap-2 items-center pb-8">
+        <p className="text-sm">
+        If you like this handle, consider{" "}
+          <a
+            className="underline bold underline-offset-4"
+            href="/donate"
+          >
+            donating
+          </a>
+          {" "}to keep the domains active!
+        </p>
+        <p className="text-xs text-gray-400">
+          This website does not use cookies or collect data.
+        </p>
+      </footer>
+
     </main>
   )
 }
