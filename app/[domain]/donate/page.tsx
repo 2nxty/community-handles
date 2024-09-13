@@ -43,7 +43,29 @@ export default function CommunityPage() {
             {" "}para doar por PIX 🇧🇷
           </p>
         </Stage>
-        <Stage title="Crypto" number={2} last>
+        <Stage title="Stripe" number={2}>
+          <p className="max-w-lg">
+            Donate {" "}
+            <a
+              href="https://livepix.gg/nxty"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Stripe USD
+            </a>{" / "}
+            Doar {" "}
+            <a
+              href="https://livepix.gg/nxty"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Stripe BRL
+            </a>
+          </p>
+        </Stage>
+        <Stage title="Crypto" number={3} last>
           <p className="max-w-lg">
             Litecoin (LTC): MLezCzaYR69E13g2kNtdQSgVfqKgMyqkJH
           </p>

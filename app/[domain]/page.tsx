@@ -201,8 +201,8 @@ export default async function IndexPage({
           <p className="mt-6 max-w-lg text-sm">
             If you like this handle, consider{" "}
             <a href="/donate" className="underline">
-              making a donation{" "}
-            </a> to keep the domains active!
+              making a donation
+            </a>{" "}to keep the domains active!
           </p>
         </Stage>
       </div>
