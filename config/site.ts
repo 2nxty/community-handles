@@ -10,6 +10,10 @@ export const siteConfig = {
       title: "Donate",
       href: "/donate",
     },
+    {
+      title: "Video Downloader",
+      href: "https://bskydl.top/",
+    },
   ],
   links: {
     bluesky: "https://bsky.app/profile/nx.s2.rip",
